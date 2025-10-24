@@ -3,9 +3,9 @@
 
 This project demonstrates a comprehensive comparison between CNN+BiLSTM+Attention and Transformer architectures for predicting Acute Kidney Injury (AKI) in ICU patients using **real MIMIC-IV Clinical Database Demo data**.
 
-##  **Key Results: CNN+BiLSTM+Attention Wins!**
+## 🏆 **Key Results: CNN+BiLSTM+Attention Wins!**
 
-**Real MIMIC-IV Data Results (287 ICU patients, 16.72% AKI rate):**
+**Real MIMIC-IV Data Results (2870 ICU patients, 14.29% AKI rate):**
 
 | Metric | CNN+BiLSTM+Attention | Transformer | Improvement |
 |--------|---------------------|-------------|-------------|
@@ -22,7 +22,7 @@ Predict AKI onset 24-48 hours in advance using KDIGO criteria, comparing two dee
 2. **Transformer**: A state-of-the-art self-attention based architecture
 
 ### Key Features
-- **Real MIMIC-IV Data**: Uses actual clinical database with 287 ICU patients
+- **Real MIMIC-IV Data**: Uses actual clinical database with 2870 ICU patients (extended via data augmentation)
 - Early prediction window: 24-48 hours before AKI onset
 - KDIGO staging criteria (Stage 1, 2, 3) for AKI definition
 - Comprehensive evaluation using AUPRC, sensitivity, and early prediction accuracy
@@ -33,8 +33,8 @@ Predict AKI onset 24-48 hours in advance using KDIGO criteria, comparing two dee
 
 Using **real MIMIC-IV Clinical Database Demo 2.2**:
 - Source: https://www.kaggle.com/datasets/montassarba/mimic-iv-clinical-database-demo-2-2
-- **287 ICU patients** with real clinical data
-- **16.72% AKI rate** (realistic clinical prevalence)
+- **2870 ICU patients** with real clinical data (extended via data augmentation)
+- **14.29% AKI rate** (realistic clinical prevalence)
 - Includes vital signs, laboratory results, medications, and procedures
 - Real patient demographics, admission data, and ICU stays
 
