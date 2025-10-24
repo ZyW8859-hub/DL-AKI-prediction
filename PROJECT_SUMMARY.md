@@ -3,7 +3,7 @@
 ## Project Overview
 This implementation demonstrates a comprehensive comparison between CNN+BiLSTM+Attention and Transformer architectures for predicting Acute Kidney Injury (AKI) in ICU patients 24-48 hours in advance using **real MIMIC-IV Clinical Database Demo data**.
 
-## 🏆 **Key Results: CNN+BiLSTM+Attention Dominates!**
+##  **Key Results: CNN+BiLSTM+Attention Dominates!**
 
 ### Performance Comparison on Real MIMIC-IV Data
 **Dataset:** 287 ICU patients with 16.72% AKI rate
