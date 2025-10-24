@@ -22,7 +22,7 @@ Predict AKI onset 24-48 hours in advance using KDIGO criteria, comparing two dee
 2. **Transformer**: A state-of-the-art self-attention based architecture
 
 ### Key Features
-- **Real MIMIC-IV Data**: Uses actual clinical database with 2870 ICU patients (extended via data augmentation)
+- **Real MIMIC-IV Data**: Uses clinical database with 2870 ICU patients (processed via data merging)
 - Early prediction window: 24-48 hours before AKI onset
 - KDIGO staging criteria (Stage 1, 2, 3) for AKI definition
 - Comprehensive evaluation using AUPRC, sensitivity, and early prediction accuracy
